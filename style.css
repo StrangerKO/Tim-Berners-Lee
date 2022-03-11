@@ -1,0 +1,72 @@
+body{
+  text-align: center;
+  margin: 0;
+
+}
+#welcome{
+  background: linear-gradient(#c18928, #5121c5);
+  bottom: 0;
+  display: table;
+  width: 100%;height: 100%;
+  z-index: 9;
+}
+.profile{
+border-radius: 50%;
+padding-top: 50px;
+}
+h1{
+  font-family: monospace;
+  padding-top: 10px;
+}
+.name{
+  font-size: 50px;
+  font-family: "Sofia", sans-serif;
+}
+.turnt{
+  font-weight: lighter;
+  font-style: oblique;
+}
+#bio {
+   font-family: 'Syne Tactile';
+    padding: 50px;
+ }
+.line {
+  height: 6px; background-color: #000; width: 70px; margin: 8px auto;
+ }
+
+
+  .links{
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+  }
+  .links:hover{
+    text-decoration: underline;
+    font-size: 50px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #writings a{
+    color: green !important;
+    text-decoration: underline !important;
+  }
+  .contact_1 h3{
+    display: inline;
+  }
+  #contacts{
+    background: grey;
+  }
+  .my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+input
+{
+    background: red;
+}
